@@ -18,7 +18,7 @@
 
 
 .navbar-inverse {
-    background-color: #d41d50;
+    background-color:#0094ff;
     border-color: #fbf6f6;
 }
 
@@ -44,8 +44,8 @@
 }
 .course > li .date {
     text-align: center;
-    background-color: #00ff90;
-    color: orange;
+    background-color:#ffd800;
+    color: blueviolet;
     width: 60px;
     border-radius: 8px;
 }
@@ -55,6 +55,21 @@
     top: 0;
     left: 70px;
 }
+
+
+.course > li .action {
+    display: none;
+    left: 70px;
+    position: absolute;
+}
+
+.course > li:hover .action {
+    display: block;
+}
+
+
+
+
 
 /* Set width on the form input elements since they're 100% wide by default */
 input,
